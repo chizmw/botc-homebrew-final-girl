@@ -1,0 +1,71 @@
+[
+  {
+    "id": "_meta",
+    "name": "The Final Girl",
+    "author": "ChiselMW",
+    "logo": "https://placehold.co/300x400",
+    "almanac": "https://github.com/chizmw/",
+    "background": "https://placehold.co/1024x768"
+  },
+  {
+    "id": "townsfolk-01",
+    "name": "Townsfolk 01",
+    "team": "townsfolk",
+    "ability": "Placeholder ability",
+    "reminders": ["Placeholder"],
+    "firstNight": 25,
+    "firstNightReminder": "Placeholder ability",
+    "otherNight": 11,
+    "otherNightReminder": "Placeholder ability",
+    "image": [
+      "https://fakeimg.pl/300x300/2411f0/f7e8e8?text=Townsfolk+01&font_size=48",
+      "https://fakeimg.pl/300x300/f01313/f7e8e8?text=Townsfolk+01&font_size=48"
+    ]
+  },
+
+  {
+    "id": "outsider-01",
+    "name": "Outsider 01",
+    "team": "outsider",
+    "ability": "Placeholder ability",
+    "reminders": ["Placeholder"],
+    "firstNight": 25,
+    "firstNightReminder": "Placeholder ability",
+    "otherNight": 1,
+    "otherNightReminder": "Placeholder ability",
+    "image": [
+      "https://fakeimg.pl/300x300/9280d6/f7e8e8?text=Outsider+01&font_size=48",
+      "https://fakeimg.pl/300x300/f01313/f7e8e8?text=Outsider+01&font_size=48"
+    ]
+  },
+
+  {
+    "id": "minion-01",
+    "name": "Minion 01",
+    "team": "minion",
+    "ability": "Placeholder ability",
+    "reminders": ["Placeholder"],
+    "firstNight": 21,
+    "firstNightReminder": "Placeholder ability",
+    "otherNight": 6,
+    "otherNightReminder": "Placeholder ability",
+    "image": [
+      "https://fakeimg.pl/300x300/ff822e/f7e8e8?text=Minion&font_size=48",
+      "https://fakeimg.pl/300x300/2411f0/f7e8e8?text=Minion&font_size=48"
+    ]
+  },
+
+  {
+    "id": "demon-01",
+    "name": "Demon 01",
+    "team": "demon",
+    "ability": "Each night*, do something demon-like",
+    "reminders": ["Dead"],
+    "otherNight": 10,
+    "otherNightReminder": "Placeholder ability",
+    "image": [
+      "https://fakeimg.pl/300x300/f01313/f7e8e8?text=Demon+01&font_size=48",
+      "https://fakeimg.pl/300x300/2411f0/f7e8e8?text=Demon+01&font_size=48"
+    ]
+  }
+]
