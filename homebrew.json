@@ -1,0 +1,262 @@
+[
+  {
+    "id": "_meta",
+    "name": "The Final Girl",
+    "author": "ChiselMW",
+    "logo": "https://placehold.co/300x400",
+    "almanac": "https://github.com/chizmw/",
+    "background": "https://placehold.co/1024x768"
+  },
+  {
+    "id": "blacksmith",
+    "name": "Blacksmith",
+    "team": "townsfolk",
+    "ability": "Placeholder ability for blacksmith",
+    "reminders": ["Placeholder"],
+    "firstNight": 66,
+    "firstNightReminder": "Placeholder ability",
+    "otherNight": 66,
+    "otherNightReminder": "Placeholder ability",
+    "image": [
+      "https://fakeimg.pl/300x300/2411f0/f7e8e8?text=Blacksmith&font_size=48",
+      "https://fakeimg.pl/300x300/f01313/f7e8e8?text=Blacksmith&font_size=48"
+    ]
+  },
+  {
+    "id": "detective",
+    "name": "Detective",
+    "team": "townsfolk",
+    "ability": "Each night*, choose three players. You learn if they are all Good.",
+    "reminders": ["Investigated", "Investigated", "Investigated"],
+    "otherNight": 65,
+    "otherNightReminder": "The Detective chooses 3 players. Inform the Detective if they are all Good.",
+    "image": [
+      "https://fakeimg.pl/300x300/2411f0/f7e8e8?text=Detective&font_size=48",
+      "https://fakeimg.pl/300x300/f01313/f7e8e8?text=Detective&font_size=48"
+    ]
+  },
+  {
+    "id": "eavesdropper",
+    "name": "Eavesdropper",
+    "team": "townsfolk",
+    "ability": "Each night, choose a player. You learn if at least one of their neighbours is Evil.",
+    "firstNight": 68,
+    "firstNightReminder": "The Eavesdropper chooses a player. Inform the Eavesdropper if at least one of their neighbours is Evil.",
+    "otherNight": 68,
+    "otherNightReminder": "The Eavesdropper chooses a player. Inform the Eavesdropper if at least one of their neighbours is Evil.",
+    "image": [
+      "https://fakeimg.pl/300x300/2411f0/f7e8e8?text=Eavesdropper&font_size=48",
+      "https://fakeimg.pl/300x300/f01313/f7e8e8?text=Eavesdropper&font_size=48"
+    ]
+  },
+  {
+    "id": "final-girl",
+    "name": "Final Girl",
+    "team": "townsfolk",
+    "ability": "Once per game, at night*, choose a player. If they are the Demon, they die. A Minion becomes the Demon and the new Demon is drunk until dusk.",
+    "reminders": ["Dead", "Is The Demon", "Drunk"],
+    "otherNight": 9,
+    "otherNightReminder": "Placeholder ability",
+    "image": [
+      "https://fakeimg.pl/300x300/2411f0/f7e8e8?text=Final+Girl&font_size=48",
+      "https://fakeimg.pl/300x300/f01313/f7e8e8?text=Final+Girl&font_size=48"
+    ]
+  },
+  {
+    "id": "historian",
+    "name": "Historian",
+    "team": "townsfolk",
+    "ability": "Each night*, learn one other player that woke the previous night due to their ability.",
+    "reminders": ["Placeholder"],
+    "otherNight": 45,
+    "otherNightReminder": "The Historian is woken. Point to a player that woke the previous night.",
+    "image": [
+      "https://fakeimg.pl/300x300/2411f0/f7e8e8?text=Historian&font_size=48",
+      "https://fakeimg.pl/300x300/f01313/f7e8e8?text=Historian&font_size=48"
+    ]
+  },
+  {
+    "id": "journalist",
+    "name": "Journalist",
+    "team": "townsfolk",
+    "ability": "Placeholder ability for journalist",
+    "reminders": ["Placeholder"],
+    "otherNight": 45,
+    "otherNightReminder": "The Journalist is woken. Something happens.",
+    "image": [
+      "https://fakeimg.pl/300x300/2411f0/f7e8e8?text=Journalist&font_size=48",
+      "https://fakeimg.pl/300x300/f01313/f7e8e8?text=Journalist&font_size=48"
+    ]
+  },
+  {
+    "id": "scout",
+    "name": "Scout",
+    "team": "townsfolk",
+    "ability": "Each night, choose a player. You learn if they are expected to wake due their ability tonight.",
+    "otherNight": 2,
+    "otherNightReminder": "The Scout chooses a player. Signal Yes/No if they are expected to wake, or not, tonight.",
+    "image": [
+      "https://fakeimg.pl/300x300/2411f0/f7e8e8?text=Scout&font_size=48",
+      "https://fakeimg.pl/300x300/f01313/f7e8e8?text=Scout&font_size=48"
+    ]
+  },
+
+  {
+    "id": "drifter",
+    "name": "Drifter",
+    "team": "outsider",
+    "ability": "Each time you are chosen by a player during the night, you might change alignment.",
+    "firstNight": 1,
+    "firstNightReminder": "Each time the Drifter is chosen by a player during the night, they might change alignment.",
+    "otherNight": 1,
+    "otherNightReminder": "Each time the Drifter is chosen by a player during the night, they might change alignment.",
+    "image": [
+      "https://fakeimg.pl/300x300/9280d6/f7e8e8?text=Drifter&font_size=48",
+      "https://fakeimg.pl/300x300/f01313/f7e8e8?text=Drifter&font_size=48"
+    ]
+  },
+  {
+    "id": "sheriff",
+    "name": "Sheriff",
+    "team": "outsider",
+    "ability": "Each night, choose a living player (different to last night). They are not woken tonight.",
+    "reminders": ["In jail"],
+    "firstNight": 30,
+    "firstNightReminder": "The Sheriff chooses a player. If the chosen player would normally wake tonight, they are not woken tonight.",
+    "otherNight": 30,
+    "otherNightReminder": "The Sheriff chooses a player. If the chosen player would normally wake tonight, they are not woken tonight.",
+    "image": [
+      "https://fakeimg.pl/300x300/2411f0/f7e8e8?text=Sheriff&font_size=48",
+      "https://fakeimg.pl/300x300/f01313/f7e8e8?text=Sheriff&font_size=48"
+    ]
+  },
+  {
+    "id": "smitten",
+    "name": "Smitten",
+    "team": "outsider",
+    "ability": "Each night, choose a player. If that player dies during the Day, you die immediately afterwards.",
+    "reminders": ["Beloved"],
+    "firstNight": 90,
+    "firstNightReminder": "The Smitten chooses a player. Mark them with the Beloved reminder. If they die during the Day, the Smitten dies immediately afterwards.",
+    "otherNight": 90,
+    "otherNightReminder": "The Smitten chooses a player. Mark them with the Beloved reminder. If they die during the Day, the Smitten dies immediately afterwards.",
+    "image": [
+      "https://fakeimg.pl/300x300/9280d6/f7e8e8?text=Smitten&font_size=48",
+      "https://fakeimg.pl/300x300/f01313/f7e8e8?text=Smitten&font_size=48"
+    ]
+  },
+  {
+    "id": "misfit",
+    "name": "Misfit",
+    "team": "outsider",
+    "ability": "Placeholder ability for Misfit",
+    "reminders": ["Misfit"],
+    "firstNight": 51,
+    "firstNightReminder": "Placeholder ability",
+    "otherNight": 51,
+    "otherNightReminder": "Placeholder ability",
+    "image": [
+      "https://fakeimg.pl/300x300/9280d6/f7e8e8?text=Misfit&font_size=48",
+      "https://fakeimg.pl/300x300/f01313/f7e8e8?text=Misfit&font_size=48"
+    ]
+  },
+
+  {
+    "id": "Frightener",
+    "name": "Frightener",
+    "team": "minion",
+    "ability": "Each night, choose a player. If this player makes any accusations or defences during the nomination phase they might die during the following night.",
+    "reminders": ["Frightened", "About to die"],
+    "firstNight": 30,
+    "firstNightReminder": "The Frightener chooses a player. Wake the chosen player and show them 'This player chose you' and the 'Frightener' token.",
+    "otherNight": 30,
+    "otherNightReminder": "The Frightener chooses a player. Wake the chosen player and show them 'This player chose you' and the 'Frightener' token.",
+    "image": [
+      "https://fakeimg.pl/300x300/ff822e/f7e8e8?text=Frightener&font_size=48",
+      "https://fakeimg.pl/300x300/2411f0/f7e8e8?text=Frightener&font_size=48"
+    ]
+  },
+  {
+    "id": "shadow",
+    "name": "Shadow",
+    "team": "minion",
+    "ability": "Each night, choose a player. If they woke tonight, you learn the same information they did (from their ability). If they did not wake due to their ability, you learn that they did not wake.",
+    "reminders": ["Placeholder"],
+    "firstNight": 30,
+    "firstNightReminder": "Placeholder ability",
+    "otherNight": 30,
+    "otherNightReminder": "Placeholder ability",
+    "image": [
+      "https://fakeimg.pl/300x300/ff822e/f7e8e8?text=Shadow&font_size=48",
+      "https://fakeimg.pl/300x300/2411f0/f7e8e8?text=Shadow&font_size=48"
+    ]
+  },
+  {
+    "id": "whisperer",
+    "name": "Whisperer",
+    "team": "minion",
+    "ability": "Placeholder ability for Whisperer",
+    "reminders": ["Placeholder"],
+    "firstNight": 30,
+    "firstNightReminder": "Placeholder ability",
+    "otherNight": 30,
+    "otherNightReminder": "Placeholder ability",
+    "image": [
+      "https://fakeimg.pl/300x300/ff822e/f7e8e8?text=Whisperer&font_size=48",
+      "https://fakeimg.pl/300x300/2411f0/f7e8e8?text=Whisperer&font_size=48"
+    ]
+  },
+
+  {
+    "id": "big-bad-wolf",
+    "name": "Big Bad Wolf",
+    "team": "demon",
+    "ability": "Each night*, do something wolf-like",
+    "reminders": ["Dead"],
+    "otherNight": 21,
+    "otherNightReminder": "Placeholder ability",
+    "image": [
+      "https://fakeimg.pl/300x300/f01313/f7e8e8?text=Big+Bad+Wolf&font_size=48",
+      "https://fakeimg.pl/300x300/2411f0/f7e8e8?text=Big+Bad+Wolf&font_size=48"
+    ]
+  },
+  {
+    "id": "dream-doctor",
+    "name": "Dream Doctor",
+    "team": "demon",
+    "ability": "Each night*, do something doctor like",
+    "reminders": ["Dead"],
+    "otherNight": 22,
+    "otherNightReminder": "Placeholder ability",
+    "image": [
+      "https://fakeimg.pl/300x300/f01313/f7e8e8?text=Dream+Doctor&font_size=48",
+      "https://fakeimg.pl/300x300/2411f0/f7e8e8?text=Dream+Doctor&font_size=48"
+    ]
+  },
+  {
+    "id": "poltergeist",
+    "name": "Poltergeist",
+    "team": "demon",
+    "ability": "Each night*, do something poltergeist like",
+    "reminders": ["Dead"],
+    "otherNight": 23,
+    "otherNightReminder": "Placeholder ability",
+    "image": [
+      "https://fakeimg.pl/300x300/f01313/f7e8e8?text=Poltergeist&font_size=48",
+      "https://fakeimg.pl/300x300/2411f0/f7e8e8?text=Poltergeist&font_size=48"
+    ]
+  },
+  {
+    "id": "puppet-master",
+    "name": "Puppet Master",
+    "team": "demon",
+    "ability": "Each night*, do something puppet-master like",
+    "reminders": ["Dead"],
+    "otherNight": 24,
+    "otherNightReminder": "Placeholder ability",
+    "image": [
+      "https://fakeimg.pl/300x300/f01313/f7e8e8?text=Puppet+Master&font_size=48",
+      "https://fakeimg.pl/300x300/2411f0/f7e8e8?text=Puppet+Master&font_size=48"
+    ]
+  }
+]
