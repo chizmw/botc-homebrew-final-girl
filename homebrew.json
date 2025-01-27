@@ -3,23 +3,31 @@
     "id": "_meta",
     "name": "The Final Girl",
     "author": "ChiselMW",
-    "logo": "https://placehold.co/300x400",
     "almanac": "https://github.com/chizmw/",
-    "background": "https://placehold.co/1024x768"
+    "logo": "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/_logo.png",
+    "background": "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/_background.png"
   },
+
   {
     "id": "blacksmith",
     "name": "Blacksmith",
     "team": "townsfolk",
-    "ability": "Placeholder ability for blacksmith",
-    "reminders": ["Placeholder"],
+    "ability": "Each night, choose a player. If they are Evil, you learn one of the in-play Evil characters. If they are Good, you learn nothing. You may only learn each Evil character once.",
+    "reminders": [
+      "Discovered",
+      "Discovered",
+      "Discovered",
+      "Discovered",
+      "Discovered",
+      "Discovered"
+    ],
     "firstNight": 66,
-    "firstNightReminder": "Placeholder ability",
+    "firstNightReminder": "The Blacksmith chooses a player. If they are Evil, show the Blacksmith one of the in-play Evil characters. If they are Good, show nothing. Mark the revealed Evil character as discovered.",
     "otherNight": 66,
-    "otherNightReminder": "Placeholder ability",
+    "otherNightReminder": "The Blacksmith chooses a player. If they are Evil, show the Blacksmith one of the in-play Evil characters. If they are Good, show nothing. Mark the revealed Evil character as discovered.",
     "image": [
-      "https://fakeimg.pl/300x300/2411f0/f7e8e8?text=Blacksmith&font_size=48",
-      "https://fakeimg.pl/300x300/f01313/f7e8e8?text=Blacksmith&font_size=48"
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/blacksmith_G.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/blacksmith_E.png"
     ]
   },
   {
@@ -31,8 +39,8 @@
     "otherNight": 65,
     "otherNightReminder": "The Detective chooses 3 players. Inform the Detective if they are all Good.",
     "image": [
-      "https://fakeimg.pl/300x300/2411f0/f7e8e8?text=Detective&font_size=48",
-      "https://fakeimg.pl/300x300/f01313/f7e8e8?text=Detective&font_size=48"
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/detective_G.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/detective_E.png"
     ]
   },
   {
@@ -45,21 +53,21 @@
     "otherNight": 68,
     "otherNightReminder": "The Eavesdropper chooses a player. Inform the Eavesdropper if at least one of their neighbours is Evil.",
     "image": [
-      "https://fakeimg.pl/300x300/2411f0/f7e8e8?text=Eavesdropper&font_size=48",
-      "https://fakeimg.pl/300x300/f01313/f7e8e8?text=Eavesdropper&font_size=48"
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/eavesdropper_G.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/eavesdropper_E.png"
     ]
   },
   {
     "id": "final-girl",
     "name": "Final Girl",
     "team": "townsfolk",
-    "ability": "Once per game, at night*, choose a player. If they are the Demon, they die. A Minion becomes the Demon and the new Demon is drunk until dusk.",
+    "ability": "Once per game, at night*, choose a living player. If they are the Demon, they die. A Minion becomes the Demon and the new Demon is drunk until dusk.",
     "reminders": ["Dead", "Is The Demon", "Drunk"],
     "otherNight": 9,
     "otherNightReminder": "Placeholder ability",
     "image": [
-      "https://fakeimg.pl/300x300/2411f0/f7e8e8?text=Final+Girl&font_size=48",
-      "https://fakeimg.pl/300x300/f01313/f7e8e8?text=Final+Girl&font_size=48"
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/final-girl_G.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/final-girl_E.png"
     ]
   },
   {
@@ -67,25 +75,66 @@
     "name": "Historian",
     "team": "townsfolk",
     "ability": "Each night*, learn one other player that woke the previous night due to their ability.",
-    "reminders": ["Placeholder"],
+    "reminders": [
+      "Woke Up",
+      "Woke Up",
+      "Woke Up",
+      "Woke Up",
+      "Woke Up",
+      "Woke Up",
+      "Woke Up",
+      "Woke Up"
+    ],
     "otherNight": 45,
     "otherNightReminder": "The Historian is woken. Point to a player that woke the previous night.",
     "image": [
-      "https://fakeimg.pl/300x300/2411f0/f7e8e8?text=Historian&font_size=48",
-      "https://fakeimg.pl/300x300/f01313/f7e8e8?text=Historian&font_size=48"
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/historian_G.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/historian_E.png"
     ]
   },
   {
     "id": "journalist",
     "name": "Journalist",
     "team": "townsfolk",
-    "ability": "Placeholder ability for journalist",
-    "reminders": ["Placeholder"],
-    "otherNight": 45,
-    "otherNightReminder": "The Journalist is woken. Something happens.",
+    "ability": "Each day, you may visit the Storyteller to learn one piece of false information about a player of your choice.",
     "image": [
-      "https://fakeimg.pl/300x300/2411f0/f7e8e8?text=Journalist&font_size=48",
-      "https://fakeimg.pl/300x300/f01313/f7e8e8?text=Journalist&font_size=48"
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/journalist_G.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/journalist_E.png"
+    ]
+  },
+  {
+    "id": "martyr",
+    "name": "Martyr",
+    "team": "townsfolk",
+    "ability": "Once per game, if a player has received enough votes to be eligible for execution, you may publicly claim your role and replace them as the candidate for execution. The player you save may not be nominated again today.",
+    "reminders": ["Saved", "Used"],
+    "image": [
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/martyr_G.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/martyr_E.png"
+    ]
+  },
+  {
+    "id": "medium",
+    "name": "Medium",
+    "team": "townsfolk",
+    "ability": "Each day*, you may visit the Storyteller to learn one piece of information about a player who died during the previous day. If multiple players died, you do not learn which player the information relates to.",
+    "reminders": ["Died", "Died", "Died", "Died"],
+    "image": [
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/medium_G.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/medium_E.png"
+    ]
+  },
+  {
+    "id": "ritualist",
+    "name": "Ritualist",
+    "team": "townsfolk",
+    "ability": "Once per game, at night*, choose a player. If they are Good, they are protected from death tonight. If they are Evil, they are poisoned until dusk.",
+    "reminders": ["Protected", "Poisoned", "Used"],
+    "otherNight": 18,
+    "otherNightReminder": "Once per game, at night*, choose a player. If they are Good, they are protected from death tonight. If they are Evil, they are poisoned until dusk.",
+    "image": [
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/ritualist_G.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/ritualist_E.png"
     ]
   },
   {
@@ -96,8 +145,20 @@
     "otherNight": 2,
     "otherNightReminder": "The Scout chooses a player. Signal Yes/No if they are expected to wake, or not, tonight.",
     "image": [
-      "https://fakeimg.pl/300x300/2411f0/f7e8e8?text=Scout&font_size=48",
-      "https://fakeimg.pl/300x300/f01313/f7e8e8?text=Scout&font_size=48"
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/scout_G.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/scout_E.png"
+    ]
+  },
+  {
+    "id": "survivor",
+    "name": "Survivor",
+    "team": "townsfolk",
+    "ability": "If there are 5 or fewer living players, you learn how many living players are Evil.",
+    "otherNight": 45,
+    "otherNightReminder": "If there are 5 or fewer living players, show the Survivor how many living players are Evil.",
+    "image": [
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/survivor_G.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/survivor_E.png"
     ]
   },
 
@@ -111,23 +172,39 @@
     "otherNight": 1,
     "otherNightReminder": "Each time the Drifter is chosen by a player during the night, they might change alignment.",
     "image": [
-      "https://fakeimg.pl/300x300/9280d6/f7e8e8?text=Drifter&font_size=48",
-      "https://fakeimg.pl/300x300/f01313/f7e8e8?text=Drifter&font_size=48"
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/drifter_G.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/drifter_E.png"
+    ]
+  },
+
+  {
+    "id": "misfit",
+    "name": "Misfit",
+    "team": "outsider",
+    "ability": "Each night*, choose a living player. If they are Good, they are poisoned until dusk and learn that you chose them. If they are Evil, they learn your character.",
+    "reminders": ["Poisoned", "Learned"],
+    "firstNight": 19,
+    "firstNightReminder": "The Misfit chooses a living player. If they are Good, mark them as poisoned and show them 'This player chose you' and the Misfit token. If they are Evil, show them the Misfit's character.",
+    "otherNight": 19,
+    "otherNightReminder": "The Misfit chooses a living player. If they are Good, mark them as poisoned and show them 'This player chose you' and the Misfit token. If they are Evil, show them the Misfit's character.",
+    "image": [
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/misfit_G.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/misfit_E.png"
     ]
   },
   {
     "id": "sheriff",
     "name": "Sheriff",
     "team": "outsider",
-    "ability": "Each night, choose a living player (different to last night). They are not woken tonight.",
+    "ability": "Each night, choose a living player (different to last night). They are not woken tonight and cannot be nominated tomorrow.",
     "reminders": ["In jail"],
     "firstNight": 30,
-    "firstNightReminder": "The Sheriff chooses a player. If the chosen player would normally wake tonight, they are not woken tonight.",
+    "firstNightReminder": "The Sheriff chooses a player. If the chosen player would normally wake tonight, they are not woken tonight and cannot be nominated tomorrow.",
     "otherNight": 30,
-    "otherNightReminder": "The Sheriff chooses a player. If the chosen player would normally wake tonight, they are not woken tonight.",
+    "otherNightReminder": "The Sheriff chooses a player. If the chosen player would normally wake tonight, they are not woken tonight and cannot be nominated tomorrow.",
     "image": [
-      "https://fakeimg.pl/300x300/2411f0/f7e8e8?text=Sheriff&font_size=48",
-      "https://fakeimg.pl/300x300/f01313/f7e8e8?text=Sheriff&font_size=48"
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/sheriff_G.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/sheriff_E.png"
     ]
   },
   {
@@ -141,28 +218,13 @@
     "otherNight": 90,
     "otherNightReminder": "The Smitten chooses a player. Mark them with the Beloved reminder. If they die during the Day, the Smitten dies immediately afterwards.",
     "image": [
-      "https://fakeimg.pl/300x300/9280d6/f7e8e8?text=Smitten&font_size=48",
-      "https://fakeimg.pl/300x300/f01313/f7e8e8?text=Smitten&font_size=48"
-    ]
-  },
-  {
-    "id": "misfit",
-    "name": "Misfit",
-    "team": "outsider",
-    "ability": "Placeholder ability for Misfit",
-    "reminders": ["Misfit"],
-    "firstNight": 51,
-    "firstNightReminder": "Placeholder ability",
-    "otherNight": 51,
-    "otherNightReminder": "Placeholder ability",
-    "image": [
-      "https://fakeimg.pl/300x300/9280d6/f7e8e8?text=Misfit&font_size=48",
-      "https://fakeimg.pl/300x300/f01313/f7e8e8?text=Misfit&font_size=48"
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/smitten_G.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/smitten_E.png"
     ]
   },
 
   {
-    "id": "Frightener",
+    "id": "frightener",
     "name": "Frightener",
     "team": "minion",
     "ability": "Each night, choose a player. If this player makes any accusations or defences during the nomination phase they might die during the following night.",
@@ -172,38 +234,53 @@
     "otherNight": 30,
     "otherNightReminder": "The Frightener chooses a player. Wake the chosen player and show them 'This player chose you' and the 'Frightener' token.",
     "image": [
-      "https://fakeimg.pl/300x300/ff822e/f7e8e8?text=Frightener&font_size=48",
-      "https://fakeimg.pl/300x300/2411f0/f7e8e8?text=Frightener&font_size=48"
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/frightener_E.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/frightener_G.png"
     ]
   },
   {
     "id": "shadow",
     "name": "Shadow",
     "team": "minion",
-    "ability": "Each night, choose a player. If they woke tonight, you learn the same information they did (from their ability). If they did not wake due to their ability, you learn that they did not wake.",
-    "reminders": ["Placeholder"],
+    "ability": "Each night, choose a player. If they wake tonight, you learn what they learn. If they do not wake, you learn nothing.",
+    "reminders": ["Learns", "Did Not Wake"],
     "firstNight": 30,
-    "firstNightReminder": "Placeholder ability",
+    "firstNightReminder": "The Shadow chooses a player. Each night, choose a player. If the chosen player wakes tonight, the Shadow learns what they learned.",
     "otherNight": 30,
-    "otherNightReminder": "Placeholder ability",
+    "otherNightReminder": "The Shadow chooses a player. Each night, choose a player. If the chosen player wakes tonight, the Shadow learns what they learned.",
     "image": [
-      "https://fakeimg.pl/300x300/ff822e/f7e8e8?text=Shadow&font_size=48",
-      "https://fakeimg.pl/300x300/2411f0/f7e8e8?text=Shadow&font_size=48"
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/shadow_E.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/shadow_G.png"
+    ]
+  },
+  {
+    "id": "shapeshifter",
+    "name": "Shapeshifter",
+    "team": "minion",
+    "ability": "Each night*, choose a character. You register as this character until dusk. You do not gain their ability.",
+    "reminders": ["Registering as"],
+    "firstNight": 30,
+    "firstNightReminder": "The Shapeshifter chooses a character. They register as this character until dusk. They do not gain its ability.",
+    "otherNight": 30,
+    "otherNightReminder": "The Shapeshifter chooses a character. They register as this character until dusk. They do not gain its ability.",
+    "image": [
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/shapeshifter_E.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/shapeshifter_G.png"
     ]
   },
   {
     "id": "whisperer",
     "name": "Whisperer",
     "team": "minion",
-    "ability": "Placeholder ability for Whisperer",
-    "reminders": ["Placeholder"],
-    "firstNight": 30,
-    "firstNightReminder": "Placeholder ability",
-    "otherNight": 30,
-    "otherNightReminder": "Placeholder ability",
+    "ability": "Each night*, choose a living player. They become your 'Thrall.' If you die, they die too. If they die, you will learn their character.",
+    "reminders": ["Thrall", "Will Learn"],
+    "firstNight": 25,
+    "firstNightReminder": "The Whisperer chooses a living player. Mark them as the Thrall. If the Whisperer dies, the Thrall dies too. If the Thrall dies, show the Whisperer their character.",
+    "otherNight": 25,
+    "otherNightReminder": "The Whisperer chooses a living player. Mark them as the Thrall. If the Whisperer dies, the Thrall dies too. If the Thrall dies, show the Whisperer their character.",
     "image": [
-      "https://fakeimg.pl/300x300/ff822e/f7e8e8?text=Whisperer&font_size=48",
-      "https://fakeimg.pl/300x300/2411f0/f7e8e8?text=Whisperer&font_size=48"
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/whisperer_E.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/whisperer_G.png"
     ]
   },
 
@@ -211,52 +288,56 @@
     "id": "big-bad-wolf",
     "name": "Big Bad Wolf",
     "team": "demon",
-    "ability": "Each night*, do something wolf-like",
-    "reminders": ["Dead"],
+    "ability": "Each night*, choose a player. They die. If you kill the Final Girl, you die instead, and a Minion becomes the Demon. [+Final Girl]",
+    "reminders": ["Dead", "Is The Demon"],
     "otherNight": 21,
-    "otherNightReminder": "Placeholder ability",
+    "otherNightReminder": "Big Bad Wolf chooses a player. They die. If Big Bad Wolf kills the Final Girl, Big Bad Wolf dies instead, and a Minion becomes the Demon. [+Final Girl]",
     "image": [
-      "https://fakeimg.pl/300x300/f01313/f7e8e8?text=Big+Bad+Wolf&font_size=48",
-      "https://fakeimg.pl/300x300/2411f0/f7e8e8?text=Big+Bad+Wolf&font_size=48"
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/big-bad-wolf_E.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/big-bad-wolf_G.png"
     ]
   },
   {
     "id": "dream-doctor",
     "name": "Dream Doctor",
     "team": "demon",
-    "ability": "Each night*, do something doctor like",
-    "reminders": ["Dead"],
+    "ability": "Each night*, choose two players. The 1st player dies. Both players are made mad that they are the other player's character.",
+    "reminders": ["Dead", "Mad", "Mad"],
     "otherNight": 22,
-    "otherNightReminder": "Placeholder ability",
+    "otherNightReminder": "The Dream Doctor chooses two players. The 1st player dies. Both players are made mad that they are the other player's character.",
     "image": [
-      "https://fakeimg.pl/300x300/f01313/f7e8e8?text=Dream+Doctor&font_size=48",
-      "https://fakeimg.pl/300x300/2411f0/f7e8e8?text=Dream+Doctor&font_size=48"
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/dream-doctor_E.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/dream-doctor_G.png"
     ]
   },
   {
     "id": "poltergeist",
     "name": "Poltergeist",
     "team": "demon",
-    "ability": "Each night*, do something poltergeist like",
-    "reminders": ["Dead"],
+    "ability": "Each night*, choose a player. They die. On the first night, choose 2 players: their roles are swapped. You may do this a second time.",
+    "reminders": ["Dead", "Swapped"],
+    "firstNight": 10,
+    "firstNightReminder": "The Poltergeist chooses 2 players: their roles are swapped. You may do this a second time.",
     "otherNight": 23,
-    "otherNightReminder": "Placeholder ability",
+    "otherNightReminder": "The Poltergeist chooses a player. They die.",
     "image": [
-      "https://fakeimg.pl/300x300/f01313/f7e8e8?text=Poltergeist&font_size=48",
-      "https://fakeimg.pl/300x300/2411f0/f7e8e8?text=Poltergeist&font_size=48"
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/poltergeist_E.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/poltergeist_G.png"
     ]
   },
   {
     "id": "puppet-master",
     "name": "Puppet Master",
     "team": "demon",
-    "ability": "Each night*, do something puppet-master like",
-    "reminders": ["Dead"],
+    "ability": "Each night, if both chosen players are alive, choose a player. They die. Then choose two living players. If both are Good, they form a bond: if one dies, the other dies too.",
+    "reminders": ["Dead", "Bonded", "Bonded"],
+    "firstNight": 24,
+    "firstNightReminder": "The Puppet Master chooses two players. Mark them with the Bonded token. If one dies the other dies too.",
     "otherNight": 24,
-    "otherNightReminder": "Placeholder ability",
+    "otherNightReminder": "If both chosen players are alive, the Puppet Master chooses a player. They die. Then the Puppet Master chooses two living players. If both are Good, they form a bond: if one dies, the other dies too.",
     "image": [
-      "https://fakeimg.pl/300x300/f01313/f7e8e8?text=Puppet+Master&font_size=48",
-      "https://fakeimg.pl/300x300/2411f0/f7e8e8?text=Puppet+Master&font_size=48"
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/puppet-master_E.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/puppet-master_G.png"
     ]
   }
 ]
