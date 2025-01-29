@@ -64,7 +64,7 @@
     "ability": "Once per game, at night*, choose a living player. If they are the Demon, they die. A Minion becomes the Demon and the new Demon is drunk until dusk.",
     "reminders": ["Dead", "Is The Demon", "Drunk"],
     "otherNight": 9,
-    "otherNightReminder": "Placeholder ability",
+    "otherNightReminder": "The Final Girl chooses a living player. If they are the Demon, they die. A Minion becomes the Demon, and the new Demon is drunk until dusk.",
     "image": [
       "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/final-girl_G.png",
       "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/final-girl_E.png"
@@ -334,7 +334,7 @@
     "firstNight": 24,
     "firstNightReminder": "The Puppet Master chooses two players. Mark them with the Bonded token. If one dies the other dies too.",
     "otherNight": 24,
-    "otherNightReminder": "If both chosen players are alive, the Puppet Master chooses a player. They die. Then the Puppet Master chooses two living players. If both are Good, they form a bond: if one dies, the other dies too.",
+    "otherNightReminder": "If both chosen players are alive, the Puppet Master chooses a player: they die. Then, the Puppet Master chooses two living players: if both are Good, they form a bond. If one bonded player dies, the other dies too.",
     "image": [
       "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/puppet-master_E.png",
       "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/puppet-master_G.png"
