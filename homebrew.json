@@ -315,9 +315,9 @@
     "name": "Poltergeist",
     "team": "demon",
     "ability": "Each night*, choose a player. They die. On the first night, choose 2 players: their roles are swapped. You may do this a second time.",
-    "reminders": ["Dead", "Swapped"],
+    "reminders": ["Dead"],
     "firstNight": 10,
-    "firstNightReminder": "The Poltergeist chooses 2 players: their roles are swapped. You may do this a second time.",
+    "firstNightReminder": "The Poltergeist chooses 2 players: their roles are swapped. The Poltergeist may do this a second time.",
     "otherNight": 23,
     "otherNightReminder": "The Poltergeist chooses a player. They die.",
     "image": [
