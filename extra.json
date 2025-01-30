@@ -1,0 +1,22 @@
+{
+  "seeker": {
+    "strengths": [
+      "The ability to connect with other players by matching their choices",
+      "Provides valuable information that can tip the balance of power",
+      "Fits well within the horror/slasher theme through their relentless search for allies"
+    ],
+    "weaknesses": [
+      "Risk of becoming Drunk if making too many incorrect guesses",
+      "Potential to overwhelm players with constant false information",
+      "May not always be approachable by the players they try to connect with"
+    ],
+    "example-plays": [
+      [
+        "Night 1: The Seeker chooses the Empath and decides to guess 'Empath'. If correct, the Empath learns the Seeker’s character. If incorrect, the Seeker gets a reminder for their first incorrect guess.",
+        "Night 2: The Seeker tries again with the Mayor and guesses 'Mayor'. If correct, the Mayor learns the Seeker's identity. If not, the Seeker earns another Incorrect Guess reminder.",
+        "Night 3: After two incorrect guesses, the Seeker becomes Drunk. Their ability malfunctions, making their actions erratic during the night."
+      ]
+    ],
+    "thematic-flavor": "The Seeker’s relentless search for allies takes a toll on them, both mentally and physically. This mirrors the high-stakes survival scenario, where desperation can lead to dangerous decisions and irreversible consequences."
+  }
+}

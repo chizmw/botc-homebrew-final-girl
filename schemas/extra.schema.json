@@ -1,0 +1,32 @@
+{
+  "patternProperties": {
+    "^[-a-z]+$": {
+      "additionalProperties": false,
+      "properties": {
+        "strengths": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "weaknesses": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "example-plays": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        },
+        "thematic-flavour": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}
