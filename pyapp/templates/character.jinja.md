@@ -3,20 +3,63 @@
 <!-- markdownlint-disable-file MD013 -->
 <!-- markdownlint-disable-file MD033 -->
 
-<table border="0" width="100%">
-<tr>
-  <td>
+<img src="{{character.image.0}}" alt="{{character.name}}" title="{{character.name}}" height="100px" />
+
+## {{character.team |title}}
+
+{% if character['thematic-flavor'] -%}
+_{{ character['thematic-flavor'] }}_
+{%- endif %}
 
 ## Ability
 
 > {{character.ability}}
 
-Team: {{character.team |title}}
+{%- if character.strengths or character.weaknesses %}
 
-  </td>
+## Considerations
 
-  <td width="130">
-    <img src="{{character.image.0}}" alt="{{character.name}}" title="{{character.name}} height="100px" />
-  </td>
-</tr>
-</table>
+{%- endif %}
+
+{%- if character.strengths %}
+
+### Strengths
+
+{%- for strength in character.strengths %}
+
+- {{strength}}
+
+{%- endfor %}
+
+{%- endif %}
+
+{%- if character.weaknesses %}
+
+### Weaknesses
+
+{%- for weakness in character.weaknesses %}
+
+- {{weakness}}
+
+{%- endfor %}
+
+{%- endif %}
+
+{% if character['example-plays'] -%}
+
+## How It Plays
+
+{% for playList in character['example-plays'] %}
+
+## Example {{loop.index}}
+
+{% for item in playList -%}
+{%- set nightLabel = "Night %d:" % loop.index -%}
+
+- {{ item |replace(nightLabel, '**%s**' % nightLabel) }}
+
+{% endfor %}
+
+{% endfor %}
+
+{%- endif %}

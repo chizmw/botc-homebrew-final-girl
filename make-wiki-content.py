@@ -8,11 +8,15 @@ results: dict = {}
 characters: dict = {}
 
 source_json: str = "homebrew.json"
+extra_json: str = "extra.json"
 output_dir: str = "./wiki"
 destination_markdown: str = f"{output_dir}/Abilities.md"
 repo_slug = "chizmw/botc-homebrew-final-girl"
 
-with open(source_json) as f:
+with open(extra_json, "r") as f:
+    extra_data = json.load(f)
+
+with open(source_json, "r") as f:
     data = json.load(f)
 
     for item in data:
@@ -21,6 +25,10 @@ with open(source_json) as f:
             continue
 
         characters[item["id"]] = item
+
+        # if we have extra data for this character, use it
+        if item["id"] in extra_data:
+            item.update(extra_data[item["id"]])
 
         results[item["team"]] = results.get(item["team"], [])
         character_info = {
