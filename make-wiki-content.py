@@ -1,5 +1,9 @@
 import json
 
+from jinja2 import Environment, PackageLoader, select_autoescape
+
+env = Environment(loader=PackageLoader("pyapp"), autoescape=select_autoescape())
+
 results: dict = {}
 characters: dict = {}
 
@@ -70,8 +74,10 @@ for id in characters:
     fileslug = f"Character:{character['name']}"
     # replace spaces with hyphens
     fileslug = fileslug.replace(" ", "-")
-    #
+
+    template = env.get_template("character.jinja.md")
+    rendered = template.render(character=character)
+
     with open(f"{output_dir}/{fileslug}.md", "w") as f:
-        f.write(f"# {character['name']}\n\n")
-        f.write("## Ability\n\n")
-        f.write(f"> {character['ability']}\n\n")
+        f.write(rendered)
+        f.write("\n\n")
