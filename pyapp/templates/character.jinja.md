@@ -51,7 +51,7 @@ _{{ character['thematic-flavor'] }}_
 
 {% for playList in character['example-plays'] %}
 
-## Example {{loop.index}}
+### Example {{loop.index}}
 
 {% for item in playList -%}
 {%- set nightLabel = "Night %d:" % loop.index -%}
