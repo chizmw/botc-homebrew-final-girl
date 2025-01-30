@@ -61,7 +61,7 @@ with open(destination_markdown, "w") as f:
 
             # write a one row html table
             f.write(
-                f"""<table>
+                f"""<table border="0" width="100%">
                 <tr>
                     <td><img src="{image_url}" alt="{character["name"]}" height="80"></td>
                     <td>{ability}</td>
