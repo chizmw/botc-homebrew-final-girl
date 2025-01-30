@@ -153,10 +153,15 @@
     "id": "seeker",
     "name": "Seeker",
     "team": "townsfolk",
-    "ability": "Each night, choose a player and a Good character. If the chosen player matches the chosen character, that player learns your character. When you make your third incorrect guess, you become Drunk until the end of the game.",
-    "reminders": ["Dead", "Is The Demon"],
-    "otherNight": 45,
-    "otherNightReminder": "The Seeker chooses a player and a Good character. If the chosen player matches the chosen character, show the player your character token. If not, mark the Seeker with the Drunk token until the end of the game.",
+    "ability": "Each night, choose a player and a Good character. If the chosen player matches the chosen character, that player learns your character. When you make your third incorrect guess, you become Drunk.",
+    "reminders": [
+      "Drunk",
+      "Incorrect Guess",
+      "Incorrect Guess",
+      "Incorrect Guess"
+    ],
+    "otherNight": 72,
+    "otherNightReminder": "The Seeker chooses a player and a Good character. If the chosen player matches the chosen character, show the player the Seeker's character. If the guess is incorrect, mark the Seeker with an 'Incorrect Guess' reminder. If this is their third incorrect guess, mark the Seeker as Drunk.",
     "image": [
       "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/seeker_G.png",
       "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/seeker_E.png"
