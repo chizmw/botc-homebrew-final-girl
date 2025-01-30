@@ -13,3 +13,6 @@ commit-sidebar:
 
 update-submodule-ref:
 	git commit -vm "docs(wiki): update submodule reference" wiki
+
+push-wiki:
+	git -C wiki push
