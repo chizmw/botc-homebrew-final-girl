@@ -461,3 +461,4 @@ tags
 
 # End of https://www.toptal.com/developers/gitignore/api/git,vim,node,ruby,go,terraform,python
 .DS_Store
+_affinity/
