@@ -12,7 +12,7 @@
     "id": "blacksmith",
     "name": "Blacksmith",
     "team": "townsfolk",
-    "ability": "Each night, choose a player. If they are Evil, you learn one of the in-play Evil characters. If they are Good, you learn nothing. You may only learn each Evil character once.",
+    "ability": "Each night, choose a living player. If they are Evil, you learn one of the in-play Evil characters. If they are Good, you learn nothing. You may only learn each Evil character once.",
     "reminders": [
       "Discovered",
       "Discovered",
