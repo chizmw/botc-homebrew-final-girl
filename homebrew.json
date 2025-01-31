@@ -138,6 +138,18 @@
     ]
   },
   {
+    "id": "scholar",
+    "name": "Scholar",
+    "team": "townsfolk",
+    "ability": "Each night*, choose two characters. You learn if at least one of these characters is in play.",
+    "otherNight": 74,
+    "otherNightReminder": "The Scholar chooses two characters. Inform them if at least one of these characters is in play.",
+    "image": [
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/scholar_G.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-final-girl/refs/heads/main/images/character/scholar_E.png"
+    ]
+  },
+  {
     "id": "scout",
     "name": "Scout",
     "team": "townsfolk",
