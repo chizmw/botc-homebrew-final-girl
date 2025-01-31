@@ -23,6 +23,7 @@ These are the external resources used in this project
 - [Poltergeist](https://www.flaticon.com/free-icon/ghost-face_17930946?term=ghost&page=2&position=89&origin=search&related_id=17930946)
 - [Puppet Master](https://www.flaticon.com/free-icon/puppet_2881913?term=puppet&page=1&position=14&origin=search&related_id=2881913)
 - [Ritualist](https://www.flaticon.com/free-icon/candle_2326392?term=ritual&page=1&position=29&origin=search&related_id=2326392)
+- [Scholar](https://www.flaticon.com/free-icon/graduation_1142988?term=student&page=1&position=49&origin=search&related_id=1142988)
 - [Scout](https://www.flaticon.com/free-icon/compass_1696348?term=compass&page=1&position=9&origin=search&related_id=1696348)
 - [Seeker](https://www.flaticon.com/free-icon/handshake_2583157?term=ally&page=1&position=16&origin=search&related_id=2583157)
 - [Shadow](https://www.flaticon.com/free-icon/superhero_4521910?term=masked&page=1&position=53&origin=search&related_id=4521910)
